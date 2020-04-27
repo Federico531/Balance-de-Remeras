@@ -1,0 +1,167 @@
+#textBox1{
+    height: 35px; width: 300px; 
+    border: 2px solid #aaa;
+    border-radius: 4px; 
+    margin-top: 2px 0;
+    outline: none;
+    padding-left: 45px;
+    box-sizing:border-box;
+    transition: 0.1s;   
+}
+#textBox1:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+
+}
+#textBox1:focus + i{
+    background-color: dodgerblue;
+    
+} 
+#textBox2{
+    height: 35px; width: 300px; 
+    border: 2px solid #aaa;
+    margin-top: 2px;
+    border-radius: 4px; 
+    outline: none;
+    padding-left: 45px;
+    box-sizing:border-box;
+    transition: 0.1s;  
+}
+#t-shirtIcon {
+    font-size: 20px;
+    position: relative;
+    left: -303px;
+    top: 3px;
+    right: 40px;
+    transition: 0.1s;
+    background-color: #aaa;
+    padding: 6px;
+    color: #fff;
+}
+#textBox2:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+#textBox2:focus + i{
+    background-color: dodgerblue;
+}
+#stockIcon{
+    font-size: 17px;
+    position: relative; 
+    left: -303px;
+    bottom: -1px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left:   9px;
+    padding-right: 9px;
+    background-color: #aaa;
+    color: #fff;
+    transition: 0.1s;
+}
+#textBox3{
+    height: 35px; width: 300px; 
+    border: 2px solid #aaa;
+    border-radius: 4px; 
+    margin-top: 3px; 
+    outline: none;
+    padding-left: 45px;
+    box-sizing:border-box;
+    transition: 0.1s;  
+}
+#textBox3:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+#textBox3:focus + i{
+    background-color: dodgerblue;
+}
+#ammountIcon{
+    font-size: 15px;
+    position: relative; 
+    left: -303px;
+    bottom: -1px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left:   11px;
+    padding-right: 11px;
+    background-color: #aaa;
+    color: #fff;
+    transition: 0.1s;
+}
+#textBox4{
+    height: 35px; width: 300px; 
+    border: 2px solid #aaa;
+    border-radius: 4px; 
+    margin-top: 2px;
+    outline: none;
+    padding-left: 45px;
+    box-sizing:border-box;
+    transition: 0.1s;   
+}
+#textBox4:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+
+}
+#textBox4:focus + i{
+        background-color: dodgerblue;    
+}
+#moneyIcon {
+    font-size: 20px;
+    position: relative; 
+    left: -303px;
+    top: 4px;
+    right: 40px;
+    transition: 0.1s;
+    background-color: #aaa;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left:   12px;
+    padding-right: 14px;
+    color: #fff;
+ 
+} 
+#textBox5{
+    height: 35px; width: 300px; 
+    border: 2px solid #aaa;
+    border-radius: 4px; 
+    margin-top: 3px; 
+    outline: none;
+    padding-left: 45px;
+    box-sizing:border-box;
+    transition: 0.1s;  
+}
+#textBox5:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+#textBox5:focus + i{
+    background-color: dodgerblue;
+}
+#soldIcon{
+    font-size: 17px;
+    position: relative; 
+    left: -303px;
+    bottom: -1px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left:   9px;
+    padding-right: 9px;
+    background-color: #aaa;
+    color: #fff;
+    transition: 0.1s;
+}
+
+table{
+    margin-top: 10px;
+    border-spacing: 0px;
+}
+td{
+    height: auto;
+    width: auto;
+    border: 0.5px solid black;
+}
+
+tr{
+    text-align: center;
+}

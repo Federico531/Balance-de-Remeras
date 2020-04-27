@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance de Remeras</title>
+    <link rel="icon" type="image/png" href="https://freepngimg.com/download/tshirt/7-black-t-shirt-png-image.png">
+    <link rel="stylesheet" href="estilo.css"> 
+    <script src="https://kit.fontawesome.com/858376b1cc.js" crossorigin="anonymous"></script>
+
+pochelo
+</head>
+<body>
+    <h1>Aplicación de Remeras</h1>
+<form>
+    <div> 
+        <input 
+            type="text"
+            id="textBox1"
+            placeholder="Ingrese el nombre de su diseño">
+            <i id= "t-shirtIcon" class="fas fa-tshirt" aria-hidden="true"></i> 
+    </div>   
+    <div>    
+        <input 
+            type="number"
+            id="textBox2"
+            placeholder="Stock antes de producir">
+            <i id= "stockIcon" class="fas fa-boxes" aria-hidden="true"></i>  
+    </div>
+    <div>
+        <input 
+            type="number"
+            id="textBox3"
+            placeholder="¿Cuántas remeras produjo?">
+            <i id= "ammountIcon" class="fas fa-layer-group" aria-hidden="true"></i>
+    </div>
+    <div>    
+        <input 
+            type="number"
+            id="textBox4"
+            placeholder="Precio de venta">
+            <i id= "moneyIcon" class="fas fa-dollar-sign" aria-hidden="true"></i>  
+    </div>            
+    
+    <div>    
+        <input 
+            type="number"
+            id="textBox5"
+            placeholder="Cantidad vendidas">
+            <i id= "soldIcon" class="fas fa-hand-holding-usd" aria-hidden="true"></i>        
+    </div>
+    <br>
+        <div>
+            <button id="agregarDiseño" > 
+            Agregar Diseño
+            </button> 
+        </div>
+    <br>
+        <div class = "table"> 
+            <button id="display" > 
+            Desplegar Datos 
+            </button> 
+            <table> 
+                <tr id = "items">
+                    <td id="rank"><b>Ranking #</b></td>
+                    <td id="diseño"><b>Diseño</b></td>
+                    <td id="vendidas"><b>Vendidas</b></td>
+                    <td id="price"><b>Precio</b></td>
+                    <td id="gain"><b>Ganancia</b></td>
+                </tr>
+                <tr id = "line1">
+                    <td id="rank1">  #1 </td>
+                    <td id="name1"></td>
+                    <td id= "sold1"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+                <tr id = "line2">
+                    <td id="rank2">  #2 </td>
+                    <td id="name2"></td>
+                    <td id="sold2"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+                <tr id = "line3">
+                    <td id="rank3">  #3 </td>
+                    <td id="name3"></td>
+                    <td id="sold3"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+                <tr id = "line4">
+                    <td id="rank4">  #4 </td>
+                    <td id="name4"></td>
+                    <td id="sold4"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+                <tr id = "line5">
+                    <td id="rank5">  #5 </td>
+                    <td id="name5"></td>
+                    <td id="sold5"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+                <tr id = "line6">
+                    <td id="rank6">  #6 </td>
+                    <td id="name6"></td>
+                    <td id="sold6"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+                <tr id = "line7">
+                    <td id="rank7">  #7 </td>
+                    <td id="name7"></td>
+                    <td id="sold7"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+                <tr id = "line8">
+                    <td id="rank8">  #8 </td>
+                    <td id="name8"></td>
+                    <td id="sold8"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+                <tr id = "line9">
+                    <td id="rank9">  #9 </td>
+                    <td id="name9"></td>
+                    <td id="sold9"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+                <tr id = "line10">
+                    <td id="rank10">  #10 </td>
+                    <td id="name10"></td>
+                    <td id="sold10"></td>
+                    <td id="stock1"></td>
+                    <td id="name"></td>
+                </tr>
+            </table>
+        </div>
+           
+
+    <p><b>Diseños Acumulados</b></p>      
+    <div id="display">
+        <pre></pre> 
+    </div>
+
+    <div>
+        <button id="buttonAppear1">
+        </button>
+         
+    </div>
+    <div>
+        <button id="balanceVenta">
+            Balance Venta
+        </button>
+    </div>
+
+    <div id="demo1">
+        <pre></pre> 
+    </div>
+    <div id="demo2">
+        <pre></pre> 
+    </div>
+    <div id="cuadriculaBalance">
+
+    </div>
+    <div id="cuadriculaBalance1">
+
+    </div>
+
+
+
+
+    <script src="app.js"> </script>
+    </body>
+
+    </html>

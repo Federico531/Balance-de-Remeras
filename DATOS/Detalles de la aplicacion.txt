@@ -1,0 +1,25 @@
+Esta aplicacion deberá como resultado:
+
+Dar una estadistica de que producto es el que mas se vendio
+y dependiendo la demanda que tenga, cuanto debera reponerse para suplir la demanda la proxima vez.
+
+que costos conllevaria suplir la demanda?
+que costos conllevaria hacer un nuevo diseño?
+que tiempos maneja el taller?
+
+1- Pedira que ingresemos un periodo o una fecha 
+
+PROMPT
+
+2- Luego ingresaremos el producto
+su precio de venta, 
+el stock que teniamos antes de vender
+cuanto vendimos
+
+3- podemos tambier crear una pestaña aparte que contenga COSTOS, digamos cuanto nos sale hacer el producto y en base a esos datos
+   luego poder calcular la ganancia que nos queda a nosotros (Restando renta, impuestos, perdidas)
+4- La idea es que sea interactivo, con pestañas y clicks que nos permitan navegar en la pagina y esta vaya recolectando los datos
+
+
+
+
