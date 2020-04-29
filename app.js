@@ -26,11 +26,11 @@ const addDesign = (ev)=>{
     diseños.push(diseño);
     document.forms[0].reset(); // to clear the form for the next entries
 
-    //for display purposes only
+    /*for display purposes only
     console.warn('added' , {diseños} );
     let pre = document.querySelector('#display pre');
     pre.textContent = '\n' + JSON.stringify(diseños, '\t', 2);
-
+    */
     //saving to localStorage
     localStorage.setItem('Mydesignlist', JSON.stringify(diseños) );
     };
@@ -136,7 +136,7 @@ const display = (ev)=>{
         document.getElementById("demo1").innerHTML = resultadoProvisorio;   
 }
     document.addEventListener('DOMContentLoaded', ()=>{
-    document.getElementById('agregarDiseño').addEventListener('click', addDesign);
+    document.getElementById('agregarDiseño').addEventListener('click',addDesign);
+    document.getElementById('agregarDiseño').addEventListener('click',balanceVenta);
     document.getElementById('display').addEventListener('click', display);
-    document.getElementById('balanceVenta').addEventListener('click', balanceVenta);
 }); 
