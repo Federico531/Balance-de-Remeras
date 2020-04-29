@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="estilo.css"> 
     <script src="https://kit.fontawesome.com/858376b1cc.js" crossorigin="anonymous"></script>
 
-pochelo
 </head>
 <body>
     <h1>Aplicación de Remeras</h1>
@@ -55,88 +54,117 @@ pochelo
             Agregar Diseño
             </button> 
         </div>
+        <br>
+        <div>
+            <button id="balanceVenta">
+                Balance Venta
+            </button>
+        </div>
     <br>
         <div class = "table"> 
             <button id="display" > 
             Desplegar Datos 
             </button> 
             <table> 
-                <tr id = "items">
-                    <td id="rank"><b>Ranking #</b></td>
-                    <td id="diseño"><b>Diseño</b></td>
-                    <td id="vendidas"><b>Vendidas</b></td>
-                    <td id="price"><b>Precio</b></td>
-                    <td id="gain"><b>Ganancia</b></td>
+                <tr></tr>
+                    <td><b>Ranking #</b></td>
+                    <td><b>Diseño</b></td>
+                    <td><b>Stock</b></td>
+                    <td><b>Precio</b></td>
+                    <td><b>Vendidas</b></td>
+                    <td><b>Ultima Tirada</b></td>
+                    <td><b>Ganancia</b></td>
                 </tr>
                 <tr id = "line1">
                     <td id="rank1">  #1 </td>
                     <td id="name1"></td>
-                    <td id= "sold1"></td>
                     <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="price1">$</td>                    
+                    <td id= "sold1"></td>
+                    <td id="lastProduction1"></td>
+                    <td id="earnings1"></td>
                 </tr>
                 <tr id = "line2">
                     <td id="rank2">  #2 </td>
                     <td id="name2"></td>
-                    <td id="sold2"></td>
-                    <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="stock2"></td>
+                    <td id="price2">$</td>                    
+                    <td id= "sold2"></td>
+                    <td id="lastProduction2"></td>
+                    <td id="earnings2"></td>
                 </tr>
                 <tr id = "line3">
                     <td id="rank3">  #3 </td>
                     <td id="name3"></td>
-                    <td id="sold3"></td>
-                    <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="stock3"></td>
+                    <td id="price3">$</td>                    
+                    <td id= "sold3"></td>
+                    <td id="lastProduction3"></td>
+                    <td id="earnings3"></td>
                 </tr>
                 <tr id = "line4">
                     <td id="rank4">  #4 </td>
                     <td id="name4"></td>
-                    <td id="sold4"></td>
-                    <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="stock4"></td>
+                    <td id="price4">$</td>                    
+                    <td id= "sold4"></td>
+                    <td id="lastProduction4"></td>
+                    <td id="earnings4"></td>
                 </tr>
                 <tr id = "line5">
                     <td id="rank5">  #5 </td>
                     <td id="name5"></td>
-                    <td id="sold5"></td>
-                    <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="stock5"></td>
+                    <td id="price5">$</td>                    
+                    <td id= "sold5"></td>
+                    <td id="lastProduction5"></td>
+                    <td id="earnings5"></td>
                 </tr>
                 <tr id = "line6">
                     <td id="rank6">  #6 </td>
                     <td id="name6"></td>
-                    <td id="sold6"></td>
-                    <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="stock6"></td>
+                    <td id="price6">$</td>                    
+                    <td id= "sold6"></td>
+                    <td id="lastProduction6"></td>
+                    <td id="earnings6"></td>
                 </tr>
                 <tr id = "line7">
                     <td id="rank7">  #7 </td>
                     <td id="name7"></td>
-                    <td id="sold7"></td>
-                    <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="stock7"></td>
+                    <td id="price7">$</td>                    
+                    <td id= "sold7"></td>
+                    <td id="lastProduction7"></td>
+                    <td id="earnings7"></td>
+                </tr>
                 </tr>
                 <tr id = "line8">
                     <td id="rank8">  #8 </td>
                     <td id="name8"></td>
-                    <td id="sold8"></td>
-                    <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="stock8"></td>
+                    <td id="price8">$</td>                    
+                    <td id= "sold8"></td>
+                    <td id="lastProduction8"></td>
+                    <td id="earnings8"></td>
                 </tr>
                 <tr id = "line9">
                     <td id="rank9">  #9 </td>
                     <td id="name9"></td>
-                    <td id="sold9"></td>
-                    <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="stock9"></td>
+                    <td id="price9">$</td>                    
+                    <td id= "sold9"></td>
+                    <td id="lastProduction9"></td>
+                    <td id="earnings9"></td>
                 </tr>
                 <tr id = "line10">
                     <td id="rank10">  #10 </td>
                     <td id="name10"></td>
-                    <td id="sold10"></td>
-                    <td id="stock1"></td>
-                    <td id="name"></td>
+                    <td id="stock10"></td>
+                    <td id="price10">$</td>                    
+                    <td id= "sold10"></td>
+                    <td id="lastProduction10"></td>
+                    <td id="earnings10"></td>
                 </tr>
             </table>
         </div>
@@ -151,11 +179,6 @@ pochelo
         <button id="buttonAppear1">
         </button>
          
-    </div>
-    <div>
-        <button id="balanceVenta">
-            Balance Venta
-        </button>
     </div>
 
     <div id="demo1">
