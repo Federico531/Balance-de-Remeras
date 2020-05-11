@@ -1,0 +1,25 @@
+{
+  "name": "www.balanceremeras.com.ar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Federico531/Balance-de-remeras.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Federico531/Balance-de-remeras/issues"
+  },
+  "homepage": "https://github.com/Federico531/Balance-de-remeras#readme"
+}
